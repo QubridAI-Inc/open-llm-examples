@@ -69,14 +69,18 @@ models/
     │   └── agents.md
     │
     ├── outputs/                  # Observed outputs & summaries
-    │   ├── nemotron.md
-    │   └── qwen3.md               # For comparison
+    │   ├── agents_output.md
+    │   ├── coding_output.md    
+    │   ├── long_context_output.md   
+    │   └── reasoning_output.md              
     │
     ├── api/                      # Qubrid API examples
-    │   ├── python.py
-    │   └── curl.sh
+    │   ├── curl.sh
+    │   ├── go.go
+    │   ├── javascript.js
+    │   └── python.py
     │
-    └── assets/                   # Optional (images, diagrams)
+    └── assets/                   # Will be added once Comparison is added
         └── nemotron-vs-qwen.png
 ```
 
@@ -132,17 +136,10 @@ These examples can be adapted for:
 
 ---
 
-## Comparisons
+## Comparisons [COMING SOON]
 
 Where relevant, outputs are compared against other models
 (e.g. Qwen3 30B-A3B) to highlight strengths and limitations.
-
-Comparison outputs live in:
-```
-outputs/
-├── nemotron.md
-└── qwen3.md
-```
 
 ---
 
