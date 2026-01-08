@@ -57,26 +57,26 @@ It is particularly well-suited for:
 
 ## Folder Structure
 
-models/nemotron-3-nano/
-│
-├── README.md                # Navigable model documentation
-│
-├── prompts/                 # Prompts used for testing
-│   ├── long_context.md
-│   ├── reasoning.md
-│   ├── coding.md
-│   └── agents.md
-│
-├── outputs/                 # Observed outputs & summaries
-│   ├── nemotron.md
-│   └── qwen3.md              # For comparison
-│
-├── api/                     # Qubrid API examples
-│   ├── python.py
-│   └── curl.sh
-│
-└── assets/                  # Optional (images, diagrams)
-    └── nemotron-vs-qwen.png
+models/
+└── nemotron-3-nano/
+    ├── README.md                 # Navigable model documentation
+    │
+    ├── prompts/                  # Prompts used for testing
+    │   ├── long_context.md
+    │   ├── reasoning.md
+    │   ├── coding.md
+    │   └── agents.md
+    │
+    ├── outputs/                  # Observed outputs & summaries
+    │   ├── nemotron.md
+    │   └── qwen3.md               # For comparison
+    │
+    ├── api/                      # Qubrid API examples
+    │   ├── python.py
+    │   └── curl.sh
+    │
+    └── assets/                   # Optional (images, diagrams)
+        └── nemotron-vs-qwen.png
 
 ---
 
