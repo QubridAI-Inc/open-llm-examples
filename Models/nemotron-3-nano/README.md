@@ -57,6 +57,7 @@ It is particularly well-suited for:
 
 ## Folder Structure
 
+```
 models/
 └── nemotron-3-nano/
     ├── README.md                 # Navigable model documentation
@@ -77,6 +78,7 @@ models/
     │
     └── assets/                   # Optional (images, diagrams)
         └── nemotron-vs-qwen.png
+```
 
 ---
 
@@ -136,11 +138,11 @@ Where relevant, outputs are compared against other models
 (e.g. Qwen3 30B-A3B) to highlight strengths and limitations.
 
 Comparison outputs live in:
-
+```
 outputs/
 ├── nemotron.md
 └── qwen3.md
-
+```
 
 ---
 
